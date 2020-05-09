@@ -1,2 +1,2 @@
-Click==7.1.1
+click==7.1.1
 pychord==0.4.1
