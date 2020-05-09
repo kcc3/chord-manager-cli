@@ -1,18 +1,16 @@
-import click
 from chord_manager_cli.chord_manager import chord_transpose, pretty_print
+import argparse
 
 
-@click.group()
-def cli():
-    pass
+# Entry Point
+def main():
+    parser = argparse.ArgumentParser(description="This script transposes chords to different keys")
+    parser.add_argument("-c", "--chords", help="The chords that need to be transposed", nargs="*", required=True)
+    parser.add_argument("-s", "--step", help="The integer number of steps up or down to transpose", type=int, required=True)
+    args = parser.parse_args()
+    o, c = chord_transpose(args.chords, args.step)
+    pretty_print(args.step, o, c)
 
 
-@click.command(name="transpose", help="Transpose chords")
-@click.option("--chords", default="", nargs="*", required=True, help="The chords to transpose")
-@click.option("--step", default=1, type=int, required=True, help="show available memory")
-def transpose(chords, step):
-    original_chords, tranposed_chords = chord_transpose(chords, step)
-    pretty_print(step, original_chords, tranposed_chords)
-
-
-cli.add_command(transpose)
+if __name__ == '__main__':
+    main()

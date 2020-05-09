@@ -27,7 +27,7 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "chord_manager = chord_manager_cli.cli:cli"
+            "chord_manager = chord_manager_cli.cli:main"
         ]
     },
 )
