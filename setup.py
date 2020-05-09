@@ -11,7 +11,7 @@ else:
 
 setup(
     name="chord_manager_cli",
-    version="0.1",
+    version="0.2",
 
     author="Kevin Chang",
     author_email="kevin.chaohwa.chang@gmail.com",
