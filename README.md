@@ -52,7 +52,7 @@ Options:
 ```
 
 ```bash
-$ cm transpose
+$ cm testing
 Usage: cm testing [-h] -t TESTING
 
 Options:
