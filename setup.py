@@ -11,7 +11,7 @@ else:
 
 setup(
     name="chord_manager_cli",
-    version="0.2",
+    version="0.3",
 
     author="Kevin Chang",
     author_email="kevin.chaohwa.chang@gmail.com",
@@ -21,8 +21,7 @@ setup(
 
     packages=["chord_manager_cli"],
     install_requires=[
-        "pychord",
-        "click"
+        "pychord"
     ],
 
     entry_points={
