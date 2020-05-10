@@ -11,6 +11,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Running the tests
+
+```
+pip install pytest
+pytest
+```
+
 ## Deployment
 
 ```bash
