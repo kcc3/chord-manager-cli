@@ -47,8 +47,8 @@ Usage: cm transpose [-h] -c [CHORDS [CHORDS ...]] -s STEP
 Options:
   -h, --help                Show this help message and exit
   -c [CHORDS [CHORDS ...]], --chords [CHORDS [CHORDS ...]]
-                        The chords that need to be transposed
-  -s STEP, --step STEP  The integer number of steps up or down to transpose
+                            The chords that need to be transposed
+  -s STEP, --step STEP      The integer number of steps up or down to transpose
 ```
 
 ```bash
