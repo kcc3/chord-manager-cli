@@ -45,7 +45,7 @@ def setup_parsers():
 
     # Test function #2 setup
     testing_parser = subparsers.add_parser("testing", help="testing example help")
-    testing_parser.add_argument("-t", "--testing", required=True)
+    testing_parser.add_argument("-t", "--testing", help="example testing flag", required=True)
     testing_parser.set_defaults(func=test_function)
     return parser
 
