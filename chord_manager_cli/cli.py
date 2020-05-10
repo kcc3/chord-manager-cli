@@ -34,7 +34,7 @@ def setup_parsers():
     Returns:
         parser (argparse.ArgumentParser): initialized parser
     """
-    parser = argparse.ArgumentParser(description="This script transposes chords to different keys")
+    parser = argparse.ArgumentParser(description="This script simplifies music chord functionality")
     subparsers = parser.add_subparsers(help="chord manager options")
 
     # Transpose function setup
