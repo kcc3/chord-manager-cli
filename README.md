@@ -7,7 +7,7 @@ To perform an install within a virtual enviroment:
 
 ```
 python -m venv .venv
-.venv\bin\activate.bat
+.venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
