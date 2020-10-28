@@ -2,6 +2,9 @@ from pychord import ChordProgression
 from chord_manager_cli.chord_manager import chord_transpose
 import pytest
 
+__author__ = "Kevin Chaohwa Chang"
+__email__ = "kevin.chaohwa.chang@gmail.com"
+
 
 @pytest.mark.parametrize("test_chord_transpose_original, expected", [
     (["E", "B", "G#", "F#"], ChordProgression(["E", "B", "G#", "F#"])),

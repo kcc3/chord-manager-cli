@@ -1,6 +1,9 @@
 from chord_manager_cli.chord_manager import chord_transpose, pretty_print
 import argparse
 
+__author__ = "Kevin Chaohwa Chang"
+__email__ = "kevin.chaohwa.chang@gmail.com"
+
 
 def transpose(args: argparse.Namespace):
     """Transpose chords and output command line results

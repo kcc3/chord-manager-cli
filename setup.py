@@ -1,6 +1,9 @@
 import sys
 from setuptools import setup
 
+__author__ = "Kevin Chaohwa Chang"
+__email__ = "kevin.chaohwa.chang@gmail.com"
+
 long_description = None
 if sys.version_info[0] < 3:
     with open('README.md') as f:

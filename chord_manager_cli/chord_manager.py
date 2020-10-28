@@ -1,5 +1,8 @@
 from pychord import ChordProgression
 
+__author__ = "Kevin Chaohwa Chang"
+__email__ = "kevin.chaohwa.chang@gmail.com"
+
 
 def chord_transpose(chords, step):
     """Function that tranposes the chords by specified step amount
